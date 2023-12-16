@@ -38,7 +38,7 @@ mov	ecx, eax
 ;Определение: Если стоит тип перед переменной
 $var_name	dd	 0
 
-;Присвоение:  
+;Присвоение: =
 mov	dword [ds:$var_name], $const/$reg
 
 
