@@ -2,7 +2,6 @@
 ;int = 4 bytes
 ;short = 2 bytes 
 ;Выравнивание по 4 байта
-;Вернуть значение
 
 ;Сложение: op1 (eax) + op2 (ebx) = ecx
 mov	eax, ($reg1/[ds:$op1_name]/$const1)
