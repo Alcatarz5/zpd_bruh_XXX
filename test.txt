@@ -1,18 +1,39 @@
-int a = 1;
-a = 1;
+int func(){
+    int a = 10;
+    int b = 20;
+    int c = 0;
+    c = a + b;
+    return c;
+}
 
-a = a + 5;
-a += 5;
+int proc(){
+    int c = 10;
+    a = c + 100;
+}
 
-a = a * 5;
-a *= 5;
+void main(){
+    int a = 1;
+    a = 1;
 
-a = a - 5;
-a -= 5;
+    a = a + 5;
+    a += 5;
 
-a = a / 5;
-a -=5;
+    a = a * 5;
+    a *= 5;
 
-a = a % 5;
-a %= 5;
+    proc();
+
+    a = func();
+
+    a = a - 5;
+    a -= 5;
+
+    a = a / 5;
+    a -=5;
+
+    a = a % 5;
+    a %= 5;
+}
+
+
 
